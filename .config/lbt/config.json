@@ -1,0 +1,7 @@
+{
+	"use_xdg_open": true,
+	"custom_open_command": "run-mailcap --action-view "$mimetype:$1"",
+	"use_local_lbrynet": true,
+	"autostart_local_lbrynet": true,
+	"remote_lbrynet_url_http": "localhost:5279"
+}

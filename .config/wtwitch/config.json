@@ -1,0 +1,32 @@
+{
+  "player": "mpv",
+  "quality": "best",
+  "colors": "true",
+  "printOfflineSubscriptions": "true",
+  "subscriptions": [
+    {
+      "streamer": "apricot"
+    },
+    {
+      "streamer": "theprimeagen"
+    },
+    {
+      "streamer": "bashbunni"
+    },
+    {
+      "streamer": "teej_dv"
+    },
+    {
+      "streamer": "gamingoncaffeine"
+    },
+    {
+      "streamer": "zeospantera"
+    },
+    {
+      "streamer": "ironmouse"
+    }
+  ],
+  "lastSubscriptionUpdate": "null",
+  "apiToken": "d6j9myzafkrk1bo4r5sosksjzdjpje",
+  "apiTokenExpiry": "1679073257"
+}

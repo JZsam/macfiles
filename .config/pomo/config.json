@@ -1,0 +1,3 @@
+{
+	"onEvent": ["/bin/sh", "/path/to/script/my_script.sh"]
+}

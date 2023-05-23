@@ -1,0 +1,40 @@
+## Open a terminal
+hyper - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
+## Change focus
+hyper - l : yabai -m window --focus east
+hyper - h : yabai -m window --focus west
+hyper - k : yabai -m window --focus north
+hyper - j : yabai -m window --focus south
+##change focus for displays
+hyper - n : yabai -m display --focus prev
+hyper - m : yabai -m display --focus next
+## Swap windows
+hyper - p : yabai -m window --swap east
+hyper - u : yabai -m window --swap west
+hyper - o : yabai -m window --swap north
+hyper - i : yabai -m window --swap south
+## Quickly restart the yabai launch agent
+ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
+## Close active application
+cmd + shift - c : $(yabai -m window $(yabai -m query --windows --window | jq -re ".id") --close)
+## toggle window fullscreen zoom
+hyper - f : yabai -m window --toggle zoom-fullscreen
+##Applications
+hyper - c : open /Applications/Neovide.app
+cmd - f2 : open /Applications/LibreWolf.app
+hyper - f2 : open /Applications/LibreWolf.app
+# hyper - w : open /Applications/WhatsApp.app
+# hyper - t : open /Applications/Telegram.app
+# hyper - q : open /Applications/Qobuz.app
+# hyper - v : open -a VIA.app
+hyper - s : open -a Steam.app
+# hyper - v : open -a Neovide.app ~/org/notes.org
+cmd + shift - f : open -a Finder.app ~
+cmd + shift - g : open -a Finder.app ~/git
+cmd + shift - d : open -a Finder.app ~/Downloads
+# cmd + ctrl - p : open -a KeePassXC.app
+## scratchpad
+hyper - t : scratchpad --toggle telegram 
+hyper - q : scratchpad --toggle qobuz
+hyper - w : scratchpad --toggle Whatsapp
+cmd + ctrl - p : scratchpad --toggle KeePassXC

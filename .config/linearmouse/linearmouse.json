@@ -1,0 +1,39 @@
+{
+  "$schema" : "https:\/\/app.linearmouse.org\/schema\/0.7.3",
+  "schemes" : [
+    {
+      "buttons" : {
+        "universalBackForward" : true
+      },
+      "if" : {
+        "device" : {
+          "productName" : "Wireless Receiver",
+          "productID" : "0xda",
+          "category" : "mouse",
+          "vendorID" : "0x248a"
+        }
+      },
+      "pointer" : {
+        "speed" : 0.11,
+        "disableAcceleration" : false
+      },
+      "scrolling" : {
+        "distance" : 3
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productName" : "Surface Mobile Mouse",
+          "serialNumber" : "5088122912545",
+          "productID" : "0x95d",
+          "category" : "mouse",
+          "vendorID" : "0x45e"
+        }
+      },
+      "scrolling" : {
+        "distance" : "auto"
+      }
+    }
+  ]
+}

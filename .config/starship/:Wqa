@@ -1,0 +1,49 @@
+add_newline = false
+
+[battery]
+full_symbol = " "
+charging_symbol = " "
+[[battery.display]]
+threshold = 10
+style = "bold red"
+discharging_symbol = " "
+[[battery.display]]
+threshold = 15
+style = "bold red"
+discharging_symbol = " "
+[[battery.display]]
+threshold = 20
+style = "bold yellow"
+discharging_symbol = " "
+[[battery.display]]
+threshold = 30
+style = "bold yellow"
+discharging_symbol = " "
+[[battery.display]]
+threshold = 40
+style = "bold yellow"
+discharging_symbol = " "
+[[battery.display]]
+threshold = 50
+style = "bold yellow"
+discharging_symbol = " "
+[[battery.display]]
+threshold = 60
+style = "green"
+discharging_symbol = " "
+[[battery.display]]
+threshold = 70
+style = "green"
+discharging_symbol = " "
+[[battery.display]]
+threshold = 80
+style = "green"
+discharging_symbol = " "
+[[battery.display]]
+threshold = 90
+style = "green"
+discharging_symbol = " "
+[[battery.display]]
+threshold = 100
+style = "green"
+discharging_symbol = " "
